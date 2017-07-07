@@ -24,7 +24,7 @@ import android.view.ViewGroup.MarginLayoutParams
 import android.view.{View, ViewGroup}
 import android.widget.FrameLayout.LayoutParams
 import android.widget.{FrameLayout, ImageView, RelativeLayout}
-import com.waz.api.impl.{AccentColor, AccentColors}
+import com.waz.api.impl.AccentColors
 import com.waz.model._
 import com.waz.threading.Threading
 import com.waz.utils.NameParts
@@ -32,8 +32,8 @@ import com.waz.zclient.controllers.global.AccentColorController
 import com.waz.zclient.drawables.TeamIconDrawable
 import com.waz.zclient.ui.text.TypefaceTextView
 import com.waz.zclient.ui.views.CircleView
-import com.waz.zclient.{R, ViewHelper}
 import com.waz.zclient.utils.RichView
+import com.waz.zclient.{R, ViewHelper}
 
 class TeamTabButton(val context: Context, val attrs: AttributeSet, val defStyleAttr: Int) extends FrameLayout(context, attrs, defStyleAttr) with ViewHelper {
   def this(context: Context, attrs: AttributeSet) = this(context, attrs, 0)
